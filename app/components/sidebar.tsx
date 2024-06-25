@@ -155,10 +155,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          FREE ChatGPT-NextWeb
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          欢迎!购买APIKEY请前往<a href="https://api.ccf666.cn" target="_blank">CF API</a>！获取更多体验请前往<a href="https://api.ccfgpt.cn" target="_blank">ChatGPT FREE</a>、<a href="https://web.ccf666.cn" target="_blank">ChatGPT-Web</a>、<a href="https://6.chatpro.icu" target="_blank">ChatGPT-Demo</a>、<a href="https://66.chatpro.icu" target="_blank">ChatGPT-Lobe</a>、<a href="https://mj.chatpro.icu" target="_blank">ChatGPT-MJ</a>、<a href="https://paint.ccf666.cn" target="_blank">Paint-Web</a>、<a href="https://free.chatpro.icu" target="_blank">ChatGPT-Plus</a>！欢迎加入q群226848325学习交流.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -215,11 +215,6 @@ export function SideBar(props: { className?: string }) {
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
-          </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
           </div>
         </div>
         <div>
