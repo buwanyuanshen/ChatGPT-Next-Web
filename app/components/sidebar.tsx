@@ -225,8 +225,14 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
+        title="FREE ChatGPT-NextWeb"
+          subTitle={
+    <span
+      dangerouslySetInnerHTML={{
+        __html: `欢迎!购买APIKEY请前往<a href="https://api.ccf666.cn" target="_blank">CF API</a>和<a href="https://shop.chatpro.icu" target="_blank">CF SHOP</a>！获取更多体验请前往<a href="https://v2.chatpro.icu" target="_blank">CF 机场</a>、<a href="https://img.chatpro.icu" target="_blank">CF 图床</a>、<a href="https://pay.chatpro.icu" target="_blank">CF 支付</a>、<a href="https://api.ccfgpt.cn" target="_blank">ChatGPT FREE</a>、<a href="https://lobe.chatpro.icu" target="_blank">ChatGPT-Lobe</a>、<a href="https://mj.chatpro.icu" target="_blank">ChatGPT-MJ</a>、<a href="https://libre.chatpro.icu" target="_blank">ChatGPT-Libre</a>、<a href="https://open.chatpro.icu" target="_blank">ChatGPT-OpenWebUI</a>、<a href="https://paint.ccf666.cn" target="_blank">Paint-Web</a>、<a href="https://free.chatpro.icu" target="_blank">ChatGPT-Plus</a>、<a href="https://gpt.chatpro.icu" target="_blank">ChatGPT-Plus-New</a>、<a href="https://gpts.chatpro.icu" target="_blank">ChatGPT-Plus-Old</a>！欢迎加入q群226848325学习交流。`
+      }}
+    />
+  }
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
@@ -304,15 +310,7 @@ export function SideBar(props: { className?: string }) {
                 />
               </Link>
             </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-                <IconButton
-                  aria={Locale.Export.MessageFromChatGPT}
-                  icon={<GithubIcon />}
-                  shadow
-                />
-              </a>
-            </div>
+      
           </>
         }
         secondaryAction={
