@@ -235,7 +235,7 @@ export function SideBar(props: { className?: string }) {
           subTitle={
     <span
       dangerouslySetInnerHTML={{
-        __html: `欢迎!购买APIKEY请前往<a href="https://api.gpt5.sbs" target="_blank">CF-API</a>和<a href="https://shop.chatpro.icu" target="_blank">CF-SHOP</a>！获取更多体验请前往<a href="https://v2.gpt5.sbs" target="_blank">CF-机场</a>、<a href="https://img.chatpro.icu" target="_blank">CF 图床</a>、<a href="https://gpt5.sbs" target="_blank">Free Chat（后端）</a>、<a href="https://f1.gpt5.sbs" target="_blank">Free Chat（前端）</a>、<a href="https://lobe.chatpro.icu" target="_blank">ChatGPT-Lobe</a>、<a href="https://mj.chatpro.icu" target="_blank">ChatGPT-MJ</a>、<a href="https://open.chatpro.icu" target="_blank">ChatGPT-OpenWebUI</a>、<a href="https://paint.gpt5.sbs" target="_blank">Paint-Web</a>、<a href="https://free.chatpro.icu" target="_blank">ChatGPT</a>、<a href="https://gpt.chatpro.icu" target="_blank">ChatGPT-Plus</a>！欢迎加入q群226848325学习交流。`
+        __html: `欢迎!购买APIKEY请前往<a href="https://api.gpt5.sbs" target="_blank">CF-API</a>和<a href="https://shop.chatpro.icu" target="_blank">CF-SHOP</a>！获取更多体验请前往<a href="https://v2.gpt5.sbs" target="_blank">CF-机场</a>、<a href="https://img.chatpro.icu" target="_blank">CF 图床</a>、<a href="https://gpt5.sbs" target="_blank">Free Chat（后端）</a>、<a href="https://f1.gpt5.sbs" target="_blank">Free Chat（前端）</a>、<a href="https://lobe.chatpro.icu" target="_blank">ChatGPT-Lobe</a>、<a href="https://mj.chatpro.icu" target="_blank">ChatGPT-MJ</a>、<a href="https://open.chatpro.icu" target="_blank">ChatGPT-OpenWebUI</a>、<a href="https://paint.gpt5.sbs" target="_blank">Paint-Web</a>！欢迎加入q群226848325学习交流。`
       }}
     />
   }
