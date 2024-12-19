@@ -235,7 +235,7 @@ export function SideBar(props: { className?: string }) {
           subTitle={
     <span
       dangerouslySetInnerHTML={{
-        __html: `欢迎!购买APIKEY请前往<a href="https://api.gpt5.sbs" target="_blank">CF-API</a>和<a href="https://shop.gpt5.sbs" target="_blank">CF-SHOP</a>！获取更多体验请前往<a href="https://v2.gpt5.sbs" target="_blank">CF-机场</a>、<a href="https://img.gpt5.sbs" target="_blank">CF 图床</a>、<a href="https://gpt5.sbs" target="_blank">Free Chat（后端）</a>、<a href="https://f1.gpt5.sbs" target="_blank">Free Chat（前端）</a>、<a href="https://lobe.gpt5.sbs" target="_blank">ChatGPT-Lobe</a>、<a href="https://mj.gpt5.sbs" target="_blank">ChatGPT-MJ</a>、<a href="https://open.gpt5.sbs" target="_blank">ChatGPT-OpenWebUI</a>、<a href="https://paint.gpt5.sbs" target="_blank">Paint-Web</a>！欢迎加入q群226848325学习交流。`
+        __html: `欢迎!购买APIKEY请前往<a href="https://api.gpt6" target="_blank">CF-API</a>和<a href="https://shop.gpt6.icu" target="_blank">CF-SHOP</a>！获取更多体验请前往<a href="https://v2.gpt6.icu" target="_blank">CF-机场</a>、<a href="https://img.gpt6.icu" target="_blank">CF 图床</a>、<a href="https://gpt6.icu" target="_blank">Free Chat（后端）</a>、<a href="https://f1.gpt6.icu" target="_blank">Free Chat（前端）</a>、<a href="https://lobe.gpt6.icu" target="_blank">ChatGPT-Lobe</a>、<a href="https://mj.gpt6.icu" target="_blank">ChatGPT-MJ</a>、<a href="https://open.gpt6.icu" target="_blank">ChatGPT-OpenWebUI</a>、<a href="https://paint.gpt6.icu" target="_blank">Paint-Web</a>！欢迎加入q群226848325学习交流。`
       }}
     />
   }
